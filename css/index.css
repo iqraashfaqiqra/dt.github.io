@@ -235,8 +235,8 @@ transform: rotate(-135deg);
          height:35px;
          top:0px;
          left:0;
-         border-top:2px solid rgb(199, 201, 201);
-         border-left:2px solid rgb(199, 201, 201);
+         border-top:2px solid rgb(224, 224, 224);
+         border-left:2px solid rgb(224, 224, 224);
        }
        .con::after
        {
@@ -328,6 +328,10 @@ transform: rotate(-135deg);
      {
         transform: scale(0.88);
      }
+     .card-body p
+     {
+      font-size: 13px;
+     }
      /* Container 2 End  */
      .bg-img
      {
@@ -402,14 +406,15 @@ transform: rotate(-135deg);
         }
         .card-2 img
         {
-          height:50vh;
+           margin: auto;
+          height:40vh;
           transform: scale(0.95);
         }
         .card-2 .card-text a
         {
           background-color: rgb(190, 15, 15);
-          padding:30px;
-          margin: 5px;
+          padding:20px;
+          margin: 4px;
           color:white;
           box-shadow: 1px 1px 5px 1px red;
         }
@@ -624,7 +629,7 @@ transform: rotate(-135deg);
     .con-1-1
       {
         /* margin-top: 20px; */
-        box-shadow: 1px 0px 10px 5px rgb(167, 165, 165);
+        box-shadow: 1px 0px 10px 5px rgb(221, 219, 219);
       }
     .con-1-p
     {
@@ -705,7 +710,7 @@ transform: rotate(-135deg);
       .con-1-1
       {
         /* margin-top: 20px; */
-        box-shadow: 1px 0px 10px 5px rgb(202, 191, 191);
+        box-shadow: 1px 0px 15px 5px rgb(230, 228, 228);
       }
      .con-1-p
      {
@@ -738,13 +743,17 @@ transform: rotate(-135deg);
     }
     .c1 img,.c2 img
     {
-        height:50vh;
+        height:40vh;
         background-position: cover;
         transform: scale(0.9);
     }
     .c1 p,.c2 p
     {
-      font-size: 13px;
+      font-size: 10px;
+    }
+    .card-2 a
+    {
+      font-size: 15px;
     }
     .double-div p
     {
