@@ -747,7 +747,7 @@ transform: rotate(-135deg);
         background-position: cover;
         transform: scale(0.9);
     }
-    .c1 p,.c2 p
+    .c1 p, .c2 p
     {
       font-size: 13px;
     }
