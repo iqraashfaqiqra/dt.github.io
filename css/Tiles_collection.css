@@ -152,6 +152,28 @@ top: 11px;
 transform: rotate(-135deg);
 }
 /* navbar css END  */
+
+/* container-1  */
+
+.card img
+{
+  height:30vh;
+  background-size: cover;
+}
+.card
+{
+  border:none;
+}
+
+a
+{
+  text-decoration: none;
+  color:rgb(65, 64, 64);
+}
+a:hover
+{
+  color:rgb(99, 98, 98);
+}
 .footer
       {
         background-color: rgb(190, 15, 15);
@@ -237,4 +259,8 @@ transform: rotate(-135deg);
     }
    
       /* Navbar End  */
+      .card img
+      {
+        height:40vh;
+      }
 }
