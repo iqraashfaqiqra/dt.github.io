@@ -240,6 +240,10 @@ a h5
     {
       border-bottom: none !important;
     }
+    .card
+    {
+      padding:0;
+    }
     /* Navbar End  */
 }
 /* Between 576px & 0px  */
@@ -266,8 +270,13 @@ a h5
     }
    
       /* Navbar End  */
+      .card
+      {
+        padding:0;
+      }
       .card img
       {
-        height:40vh;
+        height:38vh;
       }
+     
 }
