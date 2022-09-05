@@ -616,6 +616,10 @@ transform: rotate(-135deg);
       border-bottom: none !important;
     }
     /* Navbar End  */
+    .carousel-control-next-icon,.carousel-control-prev-icon
+    {
+        width:15px;
+    }
     .carousel-item img
     {
         height:80vh;
@@ -696,7 +700,10 @@ transform: rotate(-135deg);
     {
       border-bottom: none !important;
     }
-   
+    .carousel-control-next-icon,.carousel-control-prev-icon
+    {
+        width:15px;
+    }
       /* Navbar End  */
       .carousel-item img
       {
