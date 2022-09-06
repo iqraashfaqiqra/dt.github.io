@@ -155,7 +155,12 @@ transform: rotate(-135deg);
 
 .carousel-inner img
 {
-    height:70vh;
+    height:75vh;
+}
+.card
+{
+  text-align: center;
+  border:none;
 }
 .card-body p
 {
@@ -232,11 +237,13 @@ transform: rotate(-135deg);
     /* Navbar End  */
     .carousel-inner img{
         height:60vh;
+        /* transform: scalex(0.89); */
     }
     .card-body p
     {
         font-size: 10px;
     }
+   
 }
 /* Between 576px & 0px  */
 @media screen  and (max-width:576px) {
@@ -273,7 +280,7 @@ transform: rotate(-135deg);
     }
     .card-body p
     {
-        font-size: 10px;
+        font-size: 12px;
     }
     .card
     {
