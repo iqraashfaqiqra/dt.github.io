@@ -159,10 +159,13 @@ transform: rotate(-135deg);
 }
 .card-body p
 {
-    font-size: 15px;
-    line-height: 0.5;
+    font-size: 13px;
+    line-height: 0.1;
 }
-
+.card img
+{
+  height:15vh;
+}
 .footer
       {
         background-color: rgb(190, 15, 15);
@@ -228,7 +231,7 @@ transform: rotate(-135deg);
     }
     /* Navbar End  */
     .carousel-inner img{
-        height:50vh;
+        height:60vh;
     }
     .card-body p
     {
@@ -271,6 +274,10 @@ transform: rotate(-135deg);
     .card-body p
     {
         font-size: 10px;
+    }
+    .card
+    {
+      transform: scale(0.9);
     }
 
 }
