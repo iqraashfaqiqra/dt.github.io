@@ -159,10 +159,7 @@ transform: rotate(-135deg);
     background-position: center center;
 }
 
-.carousel
-{
-  box-shadow: 1px 1px 10px 5px rgb(167, 164, 164);
-}
+
     .carousel-item
     {
         position: relative;
@@ -639,11 +636,7 @@ transform: rotate(-135deg);
         font-size: 20px;
     }
     /* Carousel End  */
-    .con-1-1
-      {
-        /* margin-top: 20px; */
-        box-shadow: 1px 0px 10px 5px rgb(221, 219, 219);
-      }
+   
     .con-1-p
     {
        margin-top:20px;
@@ -729,14 +722,10 @@ transform: rotate(-135deg);
         display: none;
       }
       /* Carousel End  */
-      .con-1-1
-      {
-        /* margin-top: 20px; */
-        box-shadow: 1px 0px 15px 5px rgb(202, 202, 202);
-      }
+      
      .con-1-p
      {
-        font-size: 0.85rem;
+        font-size: 0.88rem;
      }
      .con-1-1 button
       {
